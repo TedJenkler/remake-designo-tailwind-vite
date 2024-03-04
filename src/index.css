@@ -13,6 +13,13 @@
     @apply text-2xl font-bold;
     letter-spacing: 5px;
   }
+  .px48 {
+    @apply text-5xl font-medium;
+  }
+  .px40 {
+    @apply font-medium tracking-[2px] text-white;
+    font-size: 40px;
+  }
   .px32 {
     @apply font-medium text-white;
     font-size: 2rem;
