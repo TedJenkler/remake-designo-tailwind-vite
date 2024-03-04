@@ -4,7 +4,7 @@ import hamburgermenu from "../assets/hamburgermenu.svg"
 
 function Nav() {
   return (
-    <nav className='w-full h-24 flex px-6 justify-between items-center md:px-10 md:py-16'>
+    <nav className='w-full h-24 flex px-6 justify-between items-center md:px-10 md:py-16 xl:px-40'>
         <div className='flex gap-1 items-center'>
             <img className='h-6 w-6' src={logo} alt='logoimg' />
             <h1 className='logotext text-dark-grey'>DESIGNO</h1>

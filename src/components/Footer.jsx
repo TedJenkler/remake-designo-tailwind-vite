@@ -9,9 +9,9 @@ import FooterHero from './FooterHero';
 
 function Footer() {
   return (
-    <footer className='relative bg-black pt-64 pb-16 md:pb-20'>
+    <footer className='relative bg-black pt-64 pb-16 md:pb-20 xl:pt-36'>
       <FooterHero />
-      <div className="md:flex md:items-center md:justify-between md:mx-10 md:border-b md:border-white/10 md:mb-8">
+      <div className="md:flex md:items-center md:justify-between md:mx-10 md:border-b md:border-white/10 md:mb-8 xl:px-40 xl:pb-5">
         <div className='flex gap-1 items-center justify-center border-white/10 border-b pb-8 mx-6 mb-8 md:border-none md:m-0'>
           <img className='h-6 w-6' src={logo} alt='logoimg' />
           <h1 className='logotext text-white'>DESIGNO</h1>
@@ -22,13 +22,13 @@ function Footer() {
           <li>CONTACT</li>
         </ul>
       </div>
-      <div className='md:flex md:justify-between md:mx-10 md:items-center'>
-        <div className='text-white/75 text-center mb-10 text-base'>
+      <div className='md:flex md:justify-between md:mx-10 md:items-center xl:px-40'>
+        <div className='text-white/75 text-center mb-10 text-base xl:text-start'>
           <p className='font-bold'>Designo Central Office</p>
           <p className='font-normal'>3886 Wellington Street</p>
           <p className='font-normal'>Toronto, Ontario M9C 3J5</p>
         </div>
-        <div className='text-white/75 text-center mb-10 text-base'>
+        <div className='text-white/75 text-center mb-10 text-base xl:text-start'>
           <p className='font-bold'>Contact Us (Central Office)</p>
           <p className='font-normal'>P : +1 253-863-8967</p>
           <p className='font-normal'>M : contact@designo.co</p>
