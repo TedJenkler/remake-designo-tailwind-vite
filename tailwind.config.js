@@ -14,6 +14,7 @@ export default {
         'keyoval1': "url('./src/assets/keyoval1.png')",
         'keyoval2': "url('./src/assets/keyoval2.png')",
         'keyoval3': "url('./src/assets/keyoval3.png')",
+        'herofooter': "url('./src/assets/herofooter.png')",
       },
       colors: {
         'peach': '#E7816B',

@@ -10,7 +10,7 @@
 
 @layer utilities {
   .logotext {
-    @apply text-2xl font-bold text-dark-grey;
+    @apply text-2xl font-bold;
     letter-spacing: 5px;
   }
   .px32 {

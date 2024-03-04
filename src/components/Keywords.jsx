@@ -5,7 +5,7 @@ import keyimg3 from "../assets/keyimg3.png"
 
 function Keywords() {
   return (
-    <section>
+    <section className='mb-80'>
         <div className='text-center mb-20'>
             <div className='w-full flex items-center justify-center mb-16'>
                 <div className='bg-keyoval1 bg-no-repeat bg-center flex items-center w-52 h-52'>
