@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Jost", system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .logotext {
+    @apply text-2xl font-bold text-dark-grey;
+    letter-spacing: 5px;
+  }
+  .px32 {
+    @apply font-medium text-white;
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+  .px15 {
+    @apply font-normal text-white;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+  }
+  .px28 {
+    @apply font-medium text-white;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: 1.4px;
+  }
+  .btnd {
+    @apply bg-white text-black font-medium px-6 py-3 rounded-lg;
+    font-size: 0.9375rem;
+    letter-spacing: 1px;
+  }
+}
