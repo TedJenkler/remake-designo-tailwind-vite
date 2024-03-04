@@ -17,9 +17,9 @@ function Footer() {
           <h1 className='logotext text-white'>DESIGNO</h1>
         </div>
         <ul className='text-white flex flex-col items-center gap-8 mb-10 text-sm font-normal tracking-[2px] md:flex-row'>
-          <li>OUR COMPANY</li>
-          <li>LOCATIONS</li>
-          <li>CONTACT</li>
+          <li className='hover:underline'>OUR COMPANY</li>
+          <li className='hover:underline'>LOCATIONS</li>
+          <li className='hover:underline'>CONTACT</li>
         </ul>
       </div>
       <div className='md:flex md:justify-between md:mx-10 md:items-center xl:px-40'>
@@ -34,11 +34,11 @@ function Footer() {
           <p className='font-normal'>M : contact@designo.co</p>
         </div>
         <div className='flex justify-center gap-4'>
-          <img src={facebook} alt='facebook' />
-          <img src={youtube} alt='youtube' />
-          <img src={twitter} alt='twitter' />
-          <img src={pintrest} alt='pintrest' />
-          <img src={instagram} alt='instagram' />
+          <img className='hover:cursor-pointer' src={facebook} alt='facebook' />
+          <img className='hover:cursor-pointer' src={youtube} alt='youtube' />
+          <img className='hover:cursor-pointer' src={twitter} alt='twitter' />
+          <img className='hover:cursor-pointer' src={pintrest} alt='pintrest' />
+          <img className='hover:cursor-pointer' src={instagram} alt='instagram' />
         </div>
       </div>
     </footer>

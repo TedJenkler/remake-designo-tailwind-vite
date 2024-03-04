@@ -37,7 +37,7 @@
     letter-spacing: 1.4px;
   }
   .btnd {
-    @apply bg-white text-black font-medium px-6 py-3 rounded-lg;
+    @apply bg-white text-black font-medium px-6 py-3 rounded-lg hover:bg-light-peach hover:text-white;
     font-size: 0.9375rem;
     letter-spacing: 1px;
   }

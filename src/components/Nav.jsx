@@ -14,9 +14,9 @@ function Nav() {
         </div>
         <div className='hidden absolute md:flex md:relative'>
           <ul className='flex gap-10 text-sm tracking-[2px] font-normal text-dark-grey'>
-            <li>OUR COMPANY</li>
-            <li>LOCATIONS</li>
-            <li>CONTACT</li>
+            <li className='hover:underline'>OUR COMPANY</li>
+            <li className='hover:underline'>LOCATIONS</li>
+            <li className='hover:underline'>CONTACT</li>
           </ul>
         </div>
     </nav>
