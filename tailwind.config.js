@@ -11,6 +11,7 @@ export default {
         'plink1': "url('./src/assets/plink1.jpg')",
         'plink2': "url('./src/assets/plink2.jpg')",
         'plink3': "url('./src/assets/plink3.jpg')",
+        'keyoval1': "url('./src/assets/keyoval1.png')",
       },
       colors: {
         'peach': '#E7816B',
