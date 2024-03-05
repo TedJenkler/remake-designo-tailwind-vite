@@ -5,7 +5,7 @@ import uk from "../assets/unitedkingdom.png"
 
 function LocationLink() {
   return (
-    <section className='py-32 px-3'>
+    <section className='py-32 px-3 xl:flex xl:justify-between xl:mx-40'>
         <div className='flex flex-col items-center mb-12'>
             <div className='mb-12'>
                 <img src={canada} alt='canada' />

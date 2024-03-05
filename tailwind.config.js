@@ -32,6 +32,7 @@ export default {
         'locationoval-tablet': "url('./src/assets/locationoval-tablet.png')",
         'heroaboutbg': "url('./src/assets/heroaboutbg.png')",
         'heroaboutbg-tablet': "url('./src/assets/heroaboutbg-tablet.png')",
+        'heroaboutbg-desktop': "url('./src/assets/heroaboutbg-desktop.png')",
         'infoabout': "url('./src/assets/infoabout.png')",
         'infoabout-tablet': "url('./src/assets/infoabout-tablet.png')",
       },
