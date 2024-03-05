@@ -12,6 +12,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import MobileNav from './components/MobileNav';
 import Locations from './pages/Locations';
+import About from './pages/About';
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -25,6 +26,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/locations" element={<Locations />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<Errorpage />} /> {/* Catch all route for handling 404 */}
           </Routes>
           <Footer />

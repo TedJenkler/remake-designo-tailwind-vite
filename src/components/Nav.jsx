@@ -15,7 +15,7 @@ function Nav( {toggle, setToggle} ) {
         </div>
         <div className='hidden absolute md:flex md:relative'>
           <ul className='flex gap-10 text-sm tracking-[2px] font-normal text-dark-grey'>
-            <Link className='hover:underline'>OUR COMPANY</Link>
+            <Link to="/about" className='hover:underline'>OUR COMPANY</Link>
             <Link to="/locations" className='hover:underline'>LOCATIONS</Link>
             <Link className='hover:underline'>CONTACT</Link>
           </ul>
