@@ -29,6 +29,7 @@ export default {
         'herofooter-tablet': "url('./src/assets/herofooter-tablet.png')",
         'herofooter-desktop': "url('./src/assets/herofooter-desktop.png')",
         'locationoval': "url('./src/assets/locationoval.png')",
+        'locationoval-tablet': "url('./src/assets/locationoval-tablet.png')",
       },
       colors: {
         'peach': '#E7816B',
