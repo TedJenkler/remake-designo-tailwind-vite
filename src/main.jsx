@@ -1,27 +1,37 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import {
-  createBrowserRouter,
-  RouterProvider,
+  BrowserRouter as Router,
+  Routes,
+  Route
 } from "react-router-dom";
-import './index.css'
+import './index.css';
 import Homepage from './pages/Homepage';
 import Errorpage from './pages/Errorpage';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import MobileNav from './components/MobileNav';
+import Locations from './pages/Locations';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Homepage />,
-    errorElement: <Errorpage />,
-  },
-]);
+const App = () => {
+  const [toggle, setToggle] = useState(false);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <Nav />
-      <RouterProvider router={router} />
-    <Footer />
-  </React.StrictMode>
-);
+  return (
+    <React.StrictMode>
+      <Router>
+        <Nav toggle={toggle} setToggle={setToggle} />
+        {toggle === true ? <MobileNav setToggle={setToggle} /> : null}
+        <div className={toggle === true ? "brightness-50" : null}>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/locations" element={<Locations />} />
+            <Route path="*" element={<Errorpage />} /> {/* Catch all route for handling 404 */}
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </React.StrictMode>
+  );
+};
+
+createRoot(document.getElementById("root")).render(<App />);

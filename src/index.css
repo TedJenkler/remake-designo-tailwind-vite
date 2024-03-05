@@ -25,8 +25,18 @@
     font-size: 2rem;
     line-height: 2.25rem;
   }
+  .px32peach {
+    @apply font-medium text-peach;
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
   .px15 {
     @apply font-normal text-white;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+  }
+  .px15grey {
+    @apply text-dark-grey;
     font-size: 0.9375rem;
     line-height: 1.5625rem;
   }
