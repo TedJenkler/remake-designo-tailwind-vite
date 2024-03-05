@@ -31,7 +31,9 @@ export default {
         'locationoval': "url('./src/assets/locationoval.png')",
         'locationoval-tablet': "url('./src/assets/locationoval-tablet.png')",
         'heroaboutbg': "url('./src/assets/heroaboutbg.png')",
+        'heroaboutbg-tablet': "url('./src/assets/heroaboutbg-tablet.png')",
         'infoabout': "url('./src/assets/infoabout.png')",
+        'infoabout-tablet': "url('./src/assets/infoabout-tablet.png')",
       },
       colors: {
         'peach': '#E7816B',
