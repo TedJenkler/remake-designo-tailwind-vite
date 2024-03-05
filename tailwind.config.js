@@ -35,6 +35,7 @@ export default {
         'heroaboutbg-desktop': "url('./src/assets/heroaboutbg-desktop.png')",
         'infoabout': "url('./src/assets/infoabout.png')",
         'infoabout-tablet': "url('./src/assets/infoabout-tablet.png')",
+        'herotemplate': "url('./src/assets/herotemplate.png')",
       },
       colors: {
         'peach': '#E7816B',
