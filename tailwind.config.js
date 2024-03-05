@@ -36,6 +36,7 @@ export default {
         'infoabout': "url('./src/assets/infoabout.png')",
         'infoabout-tablet': "url('./src/assets/infoabout-tablet.png')",
         'herotemplate': "url('./src/assets/herotemplate.png')",
+        'herotemplate-tablet': "url('./src/assets/herotemplate-tablet.png')",
       },
       colors: {
         'peach': '#E7816B',
