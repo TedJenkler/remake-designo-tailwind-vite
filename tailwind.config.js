@@ -22,6 +22,8 @@ export default {
         'plink1-desktop-h': "url('./src/assets/plink1-desktop-h.svg')",
         'plink2-desktop-h': "url('./src/assets/plink2-desktop-h.png')",
         'plink3-desktop-h': "url('./src/assets/plink3-desktop-h.svg')",
+        'plink2-s': "url('./src/assets/plink2-s.png')",
+        'plink3-s': "url('./src/assets/plink3-s.png')",
         'keyoval1': "url('./src/assets/keyoval1.png')",
         'keyoval2': "url('./src/assets/keyoval2.png')",
         'keyoval3': "url('./src/assets/keyoval3.png')",
@@ -37,6 +39,7 @@ export default {
         'infoabout-tablet': "url('./src/assets/infoabout-tablet.png')",
         'herotemplate': "url('./src/assets/herotemplate.png')",
         'herotemplate-tablet': "url('./src/assets/herotemplate-tablet.png')",
+        'herotemplate-desktop': "url('./src/assets/herotemplate-desktop.png')",
       },
       colors: {
         'peach': '#E7816B',
