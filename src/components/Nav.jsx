@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 function Nav( {toggle, setToggle} ) {
   return (
     <nav className='w-full h-24 flex px-6 justify-between items-center md:px-10 md:py-16 xl:px-40 z-50'>
-        <div className='flex gap-1 items-center'>
+        <Link to="/" className='flex gap-1 items-center'>
             <img className='h-6 w-6' src={logo} alt='logoimg' />
             <h1 className='logotext text-dark-grey'>DESIGNO</h1>
-        </div>
+        </Link>
         <div onClick={(e) => {setToggle(!toggle)}} className='flex items-center md:hidden md:absolute'>
             <img src={hamburgermenu} alt='hamburgermenu' />
         </div>

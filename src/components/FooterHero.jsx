@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function FooterHero() {
   return (
@@ -8,7 +9,7 @@ function FooterHero() {
         <p className='px15 mb-8 md:mx-20 md:text-base xl:mx-0 xl:text-start xl:mb-0'>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
         </div>
         <div className='xl:w-1/2 xl:flex xl:justify-end xl:items-center'>
-        <button className='btnd'>Get in touch</button>
+        <Link to="/contact" className='btnd'>Get in touch</Link>
         </div>
     </section>
   )

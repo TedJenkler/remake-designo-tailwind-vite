@@ -23,7 +23,7 @@ function WebDesign() {
           <ProductTemplate img={blogr} h1="BLOGR" p="Blogr is a platform for creating an online blog or publication" />
           <ProductTemplate img={camp} h1="CAMP" p="Get expert training in coding, data, design, and digital marketing" />
         </div>
-        <div className='mb-80 flex flex-col px-6 md:px-10 xl:flex-row xl:mx-40 xl:px-0 xl:gap-8'>
+        <div className='z-50 mb-80 flex flex-col px-6 md:px-10 xl:flex-row xl:mx-40 xl:px-0 xl:gap-8'>
             <AppBtn />
             <GraphicBtn />
           </div>

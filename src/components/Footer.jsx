@@ -7,21 +7,22 @@ import pintrest from "../assets/pintrest.svg";
 import instagram from "../assets/instagram.svg";
 import FooterHero from './FooterHero';
 import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const location = useLocation();
   return (
-    <footer className='relative bg-black pt-64 pb-16 md:pb-20 xl:pt-36'>
+    <footer className='relative bg-black pt-64 pb-16 md:pb-20 xl:pt-36 z-50'>
       {location.pathname !== "/contact" ? <FooterHero /> : null }
       <div className="md:flex md:items-center md:justify-between md:mx-10 md:border-b md:border-white/10 md:mb-8 xl:px-40 xl:pb-5">
-        <div className='flex gap-1 items-center justify-center border-white/10 border-b pb-8 mx-6 mb-8 md:border-none md:m-0'>
+        <Link to="/" className='flex gap-1 items-center justify-center border-white/10 border-b pb-8 mx-6 mb-8 md:border-none md:m-0'>
           <img className='h-6 w-6' src={logo} alt='logoimg' />
           <h1 className='logotext text-white'>DESIGNO</h1>
-        </div>
+        </Link>
         <ul className='text-white flex flex-col items-center gap-8 mb-10 text-sm font-normal tracking-[2px] md:flex-row'>
-          <li className='hover:underline'>OUR COMPANY</li>
-          <li className='hover:underline'>LOCATIONS</li>
-          <li className='hover:underline'>CONTACT</li>
+          <Link to="/about" className='hover:underline'>OUR COMPANY</Link>
+          <Link to="/locations" className='hover:underline'>LOCATIONS</Link>
+          <Link to="/contact" className='hover:underline'>CONTACT</Link>
         </ul>
       </div>
       <div className='md:flex md:justify-between md:mx-10 md:items-center xl:px-40'>
