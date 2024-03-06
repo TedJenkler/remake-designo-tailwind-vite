@@ -17,7 +17,7 @@ function Nav( {toggle, setToggle} ) {
           <ul className='flex gap-10 text-sm tracking-[2px] font-normal text-dark-grey'>
             <Link to="/about" className='hover:underline'>OUR COMPANY</Link>
             <Link to="/locations" className='hover:underline'>LOCATIONS</Link>
-            <Link className='hover:underline'>CONTACT</Link>
+            <Link to="/contact" className='hover:underline'>CONTACT</Link>
           </ul>
         </div>
     </nav>

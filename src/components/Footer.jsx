@@ -6,11 +6,13 @@ import twitter from "../assets/twitter.svg";
 import pintrest from "../assets/pintrest.svg";
 import instagram from "../assets/instagram.svg";
 import FooterHero from './FooterHero';
+import { useLocation } from 'react-router-dom';
 
 function Footer() {
+  const location = useLocation();
   return (
     <footer className='relative bg-black pt-64 pb-16 md:pb-20 xl:pt-36'>
-      <FooterHero />
+      {location.pathname !== "/contact" ? <FooterHero /> : null }
       <div className="md:flex md:items-center md:justify-between md:mx-10 md:border-b md:border-white/10 md:mb-8 xl:px-40 xl:pb-5">
         <div className='flex gap-1 items-center justify-center border-white/10 border-b pb-8 mx-6 mb-8 md:border-none md:m-0'>
           <img className='h-6 w-6' src={logo} alt='logoimg' />
