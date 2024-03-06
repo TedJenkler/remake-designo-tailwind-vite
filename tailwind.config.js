@@ -43,6 +43,7 @@ export default {
         'herotemplate-desktop': "url('./src/assets/herotemplate-desktop.png')",
         'formbg': "url('./src/assets/formbg.png')",
         'formbg-tablet': "url('./src/assets/formbg-tablet.png')",
+        'formbg-desktop': "url('./src/assets/formbg-desktop.png')",
       },
       colors: {
         'peach': '#E7816B',
